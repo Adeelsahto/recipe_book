@@ -1,0 +1,64 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies
+.flutter-plugins
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
+
+# Generated files
+**/generated_plugin_registrant.dart
+
+# Android
+**/android/.gradle/
+**/android/app/**/build/
+**/android/.cxx/
+**/android/local.properties
+**/android/app/google-services.json
+
+# iOS
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Pods/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner/Flutter/Flutter.framework
+**/ios/Runner.xcworkspace/
+**/ios/Podfile.lock
+**/ios/Pods/
+**/ios/.symlinks/
+
+# Web
+**/web/manifest.json
+
+# Build outputs and caches
+pubspec.lock
+coverage/
+*.log
+
+# Misc
+*.class
+*.log
+*.pyc
+*.swp

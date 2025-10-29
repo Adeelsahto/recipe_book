@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:recipe_book/view/recipe_list_screen.dart';
-import 'package:recipe_book/viewmodel/recipe_view_model.dart';
+import 'view/recipe_list_screen.dart';
+import 'viewmodel/recipe_view_model.dart';
 
+// ensure tooling sees the entrypoint
+@pragma('vm:entry-point')
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const RecipeBookApp());
 }
 
@@ -12,7 +15,7 @@ class RecipeBookApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
+    return ChangeNotifierProvider<RecipeViewModel>(
       create: (context) => RecipeViewModel(),
       child: MaterialApp(
         title: 'Recipe Book',

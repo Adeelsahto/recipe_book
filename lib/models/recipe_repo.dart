@@ -1,4 +1,4 @@
-import 'package:recipe_book/models/recipe_model.dart';
+import 'recipe_model.dart';
 
 class RecipeRepository {
   static List<Recipe> getRecipes() {

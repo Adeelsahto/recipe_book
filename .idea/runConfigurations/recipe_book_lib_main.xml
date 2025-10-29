@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="recipe_book (lib/main.dart)" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+    <option name="target" value="$PROJECT_DIR$/lib/main.dart" />
+    <option name="args" value="" />
+    <option name="deviceId" value="" />
+    <option name="buildMode" value="debug" />
+    <method v="2" />
+  </configuration>
+</component>
+
